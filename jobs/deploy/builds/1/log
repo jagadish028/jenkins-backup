@@ -1,0 +1,9 @@
+Started by user [8mha:////4LDx4vZ7GcMCUiXu+wvfu+6E/ln0oIiZFWc75mo32qZXAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZB/dLi1CL9rMT0xJTM4gwDIwsA5bziDcYAAAA=[0mjagadish v
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins1594505728621690384.sh
++ cd /var/lib/jenkins/workspace/build/target
+/tmp/jenkins1594505728621690384.sh: line 2: cd: /var/lib/jenkins/workspace/build/target: No such file or directory
+Build step 'Execute shell' marked build as failure
+[DeployPublisher][INFO] Build failed, project not deployed
+Finished: FAILURE

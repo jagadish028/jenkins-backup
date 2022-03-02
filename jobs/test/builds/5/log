@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4AVtnNaMRocqxQEu2IltzUI+qngcewABQGGdqHPkn2yXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy" build number [8mha:////4L1CqcN1idtzwecWUZL+Mid/EgI3lDwNwtpWLx3vh8S/AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZTUgpz8Sn0zAHEJQ6jCAAAA[0m6
+originally caused by:
+ Started by upstream project "[8mha:////4DSQB+Kq5XCgzZLjZOKVOBkERPDXHew36nfrMJOwLCyNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4NITv1bRtteNqqP4gs3hWzog1hnHXC945So8bqq0dgzcAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfTMAmfIDf8EAAAA=[0m6
+ originally caused by:
+  Started by GitHub push by jagadish028
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins4090031392265168126.sh
++ echo 'test is success'
+test is success
+Finished: SUCCESS

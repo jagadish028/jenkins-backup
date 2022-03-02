@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4AVtnNaMRocqxQEu2IltzUI+qngcewABQGGdqHPkn2yXAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy" build number [8mha:////4HO8Pb7r+D5/z6u4LU0u3M7mFYXCHpWltpncB45mzEKQAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwk/ZTUgpz8Sn1TAMtYSjHCAAAA[0m5
+originally caused by:
+ Started by upstream project "[8mha:////4DSQB+Kq5XCgzZLjZOKVOBkERPDXHew36nfrMJOwLCyNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4FjlGpEtuCmx2DOatmjvVCGpKV46ZjklDRkAlRewmCBFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfVMAI6MK5sEAAAA=[0m5
+ originally caused by:
+  Started by user [8mha:////4LDx4vZ7GcMCUiXu+wvfu+6E/ln0oIiZFWc75mo32qZXAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZB/dLi1CL9rMT0xJTM4gwDIwsA5bziDcYAAAA=[0mjagadish v
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins5921823573621539675.sh
++ echo 'test is success'
+test is success
+Finished: SUCCESS

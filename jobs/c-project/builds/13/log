@@ -1,0 +1,23 @@
+Started by GitHub push by jagadish028
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/c-project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c-project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jagadish028/c-projects.git # timeout=10
+Fetching upstream changes from https://github.com/jagadish028/c-projects.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/jagadish028/c-projects.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 4a06a3140583d7edec1dbcfc90a4ead45089f733 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4a06a3140583d7edec1dbcfc90a4ead45089f733 # timeout=10
+Commit message: "Delete you"
+ > git rev-list --no-walk 91576bd6f2fd4952f1d3ff4a41ca0f663231f504 # timeout=10
+[c-project] $ /bin/sh -xe /tmp/jenkins4768319120174386936.sh
++ cd /var/lib/jenkins/workspace/c-project
++ make
+make: 'execute.exe' is up to date.
+Finished: SUCCESS

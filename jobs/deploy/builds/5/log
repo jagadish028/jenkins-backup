@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4DSQB+Kq5XCgzZLjZOKVOBkERPDXHew36nfrMJOwLCyNAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JP2k0sycFH0AsN5xmMAAAAA=[0mbuild" build number [8mha:////4FjlGpEtuCmx2DOatmjvVCGpKV46ZjklDRkAlRewmCBFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwk/aTSzJwUfVMAI6MK5sEAAAA=[0m5
+originally caused by:
+ Started by user [8mha:////4LDx4vZ7GcMCUiXu+wvfu+6E/ln0oIiZFWc75mo32qZXAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZB/dLi1CL9rMT0xJTM4gwDIwsA5bziDcYAAAA=[0mjagadish v
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy
+[deploy] $ /bin/sh -xe /tmp/jenkins7546797819480900504.sh
++ cd /var/lib/jenkins/workspace/build/target
++ cp hello-world-war-1.0.0.war /var/lib/jenkins/workspace/deploy
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/deploy/hello-world-war-1.0.0.war to container Tomcat 9.x Remote with context null
+  Redeploying [/var/lib/jenkins/workspace/deploy/hello-world-war-1.0.0.war]
+  Undeploying [/var/lib/jenkins/workspace/deploy/hello-world-war-1.0.0.war]
+  Deploying [/var/lib/jenkins/workspace/deploy/hello-world-war-1.0.0.war]
+Triggering a new build of [8mha:////4CfgUaO+w4EP2vMjLrtj+nBHbKiGzD2sfJvk97IjkQMYAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2S1OISfQCnUQg9vwAAAA==[0mtest
+Finished: SUCCESS

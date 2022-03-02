@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/lib/jenkins/workspace/build/target
+
+cp *.war /var/lib/jenkins/workspace/deploy</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>test</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+    <hudson.plugins.deploy.DeployPublisher plugin="deploy@1.16">
+      <adapters>
+        <hudson.plugins.deploy.tomcat.Tomcat9xAdapter>
+          <credentialsId>c9bb3ef5-aa63-47f2-a379-190217caa6b3</credentialsId>
+          <url>http://3.86.188.148:9090/</url>
+          <path></path>
+        </hudson.plugins.deploy.tomcat.Tomcat9xAdapter>
+      </adapters>
+      <war>**/*.war</war>
+      <onFailure>false</onFailure>
+    </hudson.plugins.deploy.DeployPublisher>
+  </publishers>
+  <buildWrappers/>
+</project>
